@@ -14,17 +14,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-}
-
-body{
-    font-family: Netflix;
     background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imagens/background.jpg); 
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 80%;
     background-color: black;
     height: 100vh;
+}
+
+body{
+    font-family: Netflix;
+    
     margin: 0;
     padding: 0;
     
@@ -56,8 +56,6 @@ nav{
     background-color: #E50914;
     color: white;
     padding:1px;
-
-    
     font-size: 20px;
 }
 
@@ -65,19 +63,23 @@ nav{
     font-size: 48px;
 }
 
-main{
-    display: flex;
+.principal{
+   display: flex;
     flex-direction: column;
+    /* 
     width: 50%;
     margin-left: 50%;
     position: absolute;
     top: 40%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
     text-align: center;
     line-height: 50px;
+    margin-top: 300px;
+    margin-bottom: 110px;
 }
 
 .email-input {
+    color: white;
     width: 70%; 
     padding: 10px;
     font-size: 16px;
@@ -103,4 +105,25 @@ main{
 a{
     color: white;
     text-decoration: none;
+}
+
+.ad{
+    display: flex;
+    width: 100%;
+    height: 144px;
+    justify-content: center;
+    margin-bottom: ;
+}
+
+.ad-retangle{
+    width: 90%;
+    height: 110px;
+    background-color: lightcoral;
+    margin: auto;
+}
+
+.secundario{
+    display: flex;
+    flex-direction: column;
+    
 }
